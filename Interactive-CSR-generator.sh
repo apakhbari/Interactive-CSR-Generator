@@ -141,6 +141,8 @@ subjectAltName = @alt_names
 [ alt_names ]
 DNS.1 = $processed_domain
 DNS.2 = $domain_name
+#IP.1 = 192.168.1.1
+#IP.2 = 192.168.1.2
 EOF
 else
     # For standard CSR
@@ -168,6 +170,8 @@ subjectAltName = @alt_names
 [ alt_names ]
 DNS.1 = $domain_name
 DNS.2 = www.$domain_name
+#IP.1 = 192.168.1.1
+#IP.2 = 192.168.1.2
 EOF
 fi
 echo -e "$DIVIDER\nConfiguration file $CONFIG_FILE created.\n$DIVIDER"

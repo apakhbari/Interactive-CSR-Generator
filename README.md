@@ -106,8 +106,8 @@ All artifacts are placed in:
 7. **Generate RSA 2048 private key**
 8. **Generate OpenSSL config**
 
-   * Wildcard: includes both `DNS.1 = example.com` and `DNS.2 = *.example.com`
-   * Standard: includes `DNS.1 = example.com` and `DNS.2 = www.example.com` plus key usage extensions
+   * Wildcard: includes both `DNS.1 = example.com` and `DNS.2 = *.example.com`. Also ` IP.1 & IP.2 ` can be assigned in SAN
+   * Standard: includes `DNS.1 = example.com` and `DNS.2 = www.example.com` plus key usage extensions. Also ` IP.1 & IP.2 ` can be assigned in SAN
 9. **Generate CSR**
 10. **Display CSR details**
 
